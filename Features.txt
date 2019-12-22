@@ -23,8 +23,6 @@ Fix - buttons shows/hiddes
 
 ALLTASK sort function
 
-Multiplie searching - Create
-
 
 Make a hisotry Page
 
