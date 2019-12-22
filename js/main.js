@@ -102,8 +102,15 @@ function closeTaskAdderBtn(event) {
 
         if (!formShort.classList.contains('hide')) {
             formShort.classList.toggle('hide')}
+        
+        if (!searchForm.classList.contains('hide')) {
+            let cal = document.querySelector('#calendar')
+            cal.style.filter === '' ? cal.style.filter = "blur(5px)" : cal.style.filter = ""
+            searchForm.classList.toggle('hide')}    
 
-        event.target.classList.toggle('hide')
+
+        // searchForm.classList.toggle('hide')
+        // event.target.classList.toggle('hide')
         // plusBtn.classList.toggle('hide')
 }
 
@@ -122,7 +129,7 @@ function plusTaskAdderBtn(event) {
         formShort.classList.toggle('hide')
         
     }
-    closeBtn.classList.toggle('hide')
+    // closeBtn.classList.toggle('hide')
     // plusBtn.classList.toggle('hide')
 }
 
