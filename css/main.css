@@ -8,9 +8,7 @@
 
 body {
     user-select: none;
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
+    -webkit-user-select: none;
     position: relative;
     margin-top: 65px;
     bottom: 0;
@@ -23,6 +21,7 @@ body {
 }
 
 footer {
+    height: 30px;
     text-align: center;
     font-weight: 700;
 }
